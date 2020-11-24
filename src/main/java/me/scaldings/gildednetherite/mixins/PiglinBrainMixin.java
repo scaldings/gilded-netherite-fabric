@@ -31,7 +31,6 @@ public class PiglinBrainMixin
             if (!iterator.hasNext()) {return false;}
 
             item = ((ItemStack)iterator.next()).getItem();
-
             if (item instanceof ArmorItem)
             {
                 if (((ArmorItem)item).getMaterial() != GildedNetheriteMaterial.GILDED)
