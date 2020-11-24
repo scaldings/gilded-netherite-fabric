@@ -1,7 +1,7 @@
 {
-  "item.gildednetherite.gilded_netherite_ingot": "Gilded Netherite Ingot",
-  "item.gildednetherite.gilded_netherite_helmet": "Gilded Netherite Helmet",
-  "item.gildednetherite.gilded_netherite_chestplate": "Gilded Netherite Chestplate",
-  "item.gildednetherite.gilded_netherite_leggings": "Gilded Netherite Leggings",
-  "item.gildednetherite.gilded_netherite_boots": "Gilded Netherite Boots"
+  "item.gildednetherite.gilded_ingot": "Gilded Netherite Ingot",
+  "item.gildednetherite.gilded_helmet": "Gilded Netherite Helmet",
+  "item.gildednetherite.gilded_chestplate": "Gilded Netherite Chestplate",
+  "item.gildednetherite.gilded_leggings": "Gilded Netherite Leggings",
+  "item.gildednetherite.gilded_boots": "Gilded Netherite Boots"
 }

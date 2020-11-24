@@ -12,21 +12,21 @@ public class Items
     private static final String MOD_ID = "gildednetherite";
 
     //Items
-    public static final Item GILDED_NETHERITE_INGOT = new Item(new Item.Settings().fireproof().group(ItemGroup.MATERIALS));
+    public static final Item GILDED_INGOT = new Item(new Item.Settings().fireproof().group(ItemGroup.MATERIALS));
 
     //Armor
-    public static final Item GILDED_NETHERITE_HELMET = new ArmorItem(GildedNetheriteMaterial.GILDED_NETHERITE, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(ItemGroup.COMBAT));
-    public static final Item GILDED_NETHERITE_CHESTPLATE = new ArmorItem(GildedNetheriteMaterial.GILDED_NETHERITE, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(ItemGroup.COMBAT));
-    public static final Item GILDED_NETHERITE_LEGGINGS = new ArmorItem(GildedNetheriteMaterial.GILDED_NETHERITE, EquipmentSlot.LEGS, new Item.Settings().fireproof().group(ItemGroup.COMBAT));
-    public static final Item GILDED_NETHERITE_BOOTS = new ArmorItem(GildedNetheriteMaterial.GILDED_NETHERITE, EquipmentSlot.FEET, new Item.Settings().fireproof().group(ItemGroup.COMBAT));
+    public static final Item GILDED_HELMET = new ArmorItem(GildedNetheriteMaterial.GILDED, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(ItemGroup.COMBAT));
+    public static final Item GILDED_CHESTPLATE = new ArmorItem(GildedNetheriteMaterial.GILDED, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(ItemGroup.COMBAT));
+    public static final Item GILDED_LEGGINGS = new ArmorItem(GildedNetheriteMaterial.GILDED, EquipmentSlot.LEGS, new Item.Settings().fireproof().group(ItemGroup.COMBAT));
+    public static final Item GILDED_BOOTS = new ArmorItem(GildedNetheriteMaterial.GILDED, EquipmentSlot.FEET, new Item.Settings().fireproof().group(ItemGroup.COMBAT));
 
     public static void registerItems()
     {
-        register(GILDED_NETHERITE_INGOT, "gilded_netherite_ingot");
-        register(GILDED_NETHERITE_HELMET, "gilded_netherite_helmet");
-        register(GILDED_NETHERITE_CHESTPLATE, "gilded_netherite_chestplate");
-        register(GILDED_NETHERITE_LEGGINGS, "gilded_netherite_leggings");
-        register(GILDED_NETHERITE_BOOTS, "gilded_netherite_boots");
+        register(GILDED_INGOT, "gilded_ingot");
+        register(GILDED_HELMET, "gilded_helmet");
+        register(GILDED_CHESTPLATE, "gilded_chestplate");
+        register(GILDED_LEGGINGS, "gilded_leggings");
+        register(GILDED_BOOTS, "gilded_boots");
     }
 
     private static void register(Item item, String name)
