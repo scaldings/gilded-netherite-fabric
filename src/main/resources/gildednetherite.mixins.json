@@ -4,10 +4,9 @@
   "package": "me.scaldings.gildednetherite.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-
+    "PiglinBrainMixin"
   ],
   "client": [
-    "PiglinBrainMixin"
   ],
   "injectors": {
     "defaultRequire": 1

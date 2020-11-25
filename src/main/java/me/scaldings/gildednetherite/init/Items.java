@@ -14,17 +14,17 @@ public class Items
     public static final Item GILDED_INGOT = new Item(new Item.Settings().fireproof().group(ItemGroup.MATERIALS));
 
     //Armor
-    public static final Item GILDED_HELMET = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
-    public static final Item GILDED_CHESTPLATE = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
-    public static final Item GILDED_LEGGINGS = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.LEGS, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
-    public static final Item GILDED_BOOTS = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.FEET, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
+    public static final Item GILDED_HELMET = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+    public static final Item GILDED_CHESTPLATE = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+    public static final Item GILDED_LEGGINGS = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.LEGS, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+    public static final Item GILDED_BOOTS = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.FEET, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
 
-    //Tools                                                                                            8.8                1.8
-    public static final ToolItem GILDED_SWORD = new SwordItem(GildedToolMaterial.GILDED, 3, -2.2F, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.EPIC));
-    public static final ToolItem GILDED_PICKAXE = new GildedPickaxeItem(GildedToolMaterial.GILDED, 1, -2.6F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
-    public static final ToolItem GILDED_AXE = new GildedAxeItem(GildedToolMaterial.GILDED, 5, -2.8F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
-    public static final ToolItem GILDED_SHOVEL = new ShovelItem(GildedToolMaterial.GILDED, 1, -2.8F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
-    public static final ToolItem GILDED_HOE = new GildedHoeItem(GildedToolMaterial.GILDED, -4, 0.2F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.EPIC));
+    //Tools
+    public static final ToolItem GILDED_SWORD = new SwordItem(GildedToolMaterial.GILDED, 3, -2.2F, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+    public static final ToolItem GILDED_PICKAXE = new GildedPickaxeItem(GildedToolMaterial.GILDED, 1, -2.6F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
+    public static final ToolItem GILDED_AXE = new GildedAxeItem(GildedToolMaterial.GILDED, 5, -2.8F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
+    public static final ToolItem GILDED_SHOVEL = new ShovelItem(GildedToolMaterial.GILDED, 1, -2.8F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
+    public static final ToolItem GILDED_HOE = new GildedHoeItem(GildedToolMaterial.GILDED, -4, 0.2F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
 
     public static void registerItems()
     {

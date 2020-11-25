@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:nether/netherite_armor",
+  "display": {
+    "icon": {
+      "item": "gildednetherite:gilded_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.gilded_armor.title"
+    },
+    "description": {
+      "translate": "advancements.gilded_armor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 120
+  },
+  "criteria": {
+    "gilded_netherite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gildednetherite:gilded_helmet"
+          },
+          {
+            "item": "gildednetherite:gilded_chestplate"
+          },
+          {
+            "item": "gildednetherite:gilded_leggings"
+          },
+          {
+            "item": "gildednetherite:gilded_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gilded_netherite_armor"
+    ]
+  ]
+}
