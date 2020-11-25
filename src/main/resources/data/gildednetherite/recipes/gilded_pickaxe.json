@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:netherite_pickaxe"
+    "item": "minecraft:diamond_pickaxe"
   },
   "addition": {
     "item": "gildednetherite:gilded_ingot"

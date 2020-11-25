@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:netherite_sword"
+    "item": "minecraft:diamond_sword"
   },
   "addition": {
     "item": "gildednetherite:gilded_ingot"

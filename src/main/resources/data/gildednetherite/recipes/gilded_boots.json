@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "minecraft:netherite_boots"
+    "item": "minecraft:diamond_boots"
   },
   "addition": {
     "item": "gildednetherite:gilded_ingot"
