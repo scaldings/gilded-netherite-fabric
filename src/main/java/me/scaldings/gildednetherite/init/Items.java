@@ -12,6 +12,7 @@ public class Items
 
     //Items
     public static final Item GILDED_INGOT = new Item(new Item.Settings().fireproof().group(ItemGroup.MATERIALS));
+    public static final Item DIAMOND_SCRAP = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
     //Armor
     public static final Item GILDED_HELMET = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
@@ -38,10 +39,8 @@ public class Items
         register(GILDED_AXE, "gilded_axe");
         register(GILDED_SHOVEL, "gilded_shovel");
         register(GILDED_HOE, "gilded_hoe");
+        register(DIAMOND_SCRAP, "diamond_scrap");
     }
 
-    private static void register(Item item, String name)
-    {
-        Registry.register(Registry.ITEM, new Identifier(MOD_ID, name), item);
-    }
+    private static void register(Item item, String name) {Registry.register(Registry.ITEM, new Identifier(MOD_ID, name), item);}
 }

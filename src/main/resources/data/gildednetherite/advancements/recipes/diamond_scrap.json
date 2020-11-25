@@ -1,0 +1,35 @@
+{
+  "parent": "gildednetherite:recipes/root",
+  "rewards": {
+    "recipes": [
+      "gildednetherite:diamond_scrap"
+    ]
+  },
+  "criteria": {
+    "has_needed_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          },
+          {
+            "item": "minecraft:gold_nugget"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gildednetherite:diamond_scrap"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_needed_items",
+      "has_the_recipe"
+    ]
+  ]
+}
