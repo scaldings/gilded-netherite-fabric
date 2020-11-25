@@ -1,6 +1,6 @@
 package me.scaldings.gildednetherite.mixins;
 
-import me.scaldings.gildednetherite.init.GildedNetheriteMaterial;
+import me.scaldings.gildednetherite.init.GildedArmorMaterial;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.mob.PiglinBrain;
 import net.minecraft.item.ArmorItem;
@@ -11,7 +11,6 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
 import java.util.Iterator;
-import java.util.logging.Logger;
 
 @Mixin(PiglinBrain.class)
 public class PiglinBrainMixin
@@ -33,7 +32,7 @@ public class PiglinBrainMixin
             item = ((ItemStack)iterator.next()).getItem();
             if (item instanceof ArmorItem)
             {
-                if (((ArmorItem)item).getMaterial() != GildedNetheriteMaterial.GILDED)
+                if (((ArmorItem)item).getMaterial() != GildedArmorMaterial.GILDED)
                 {
                     if (((ArmorItem)item).getMaterial() != ArmorMaterials.GOLD) {shouldRepeat = true;}
                     else {shouldRepeat = false;}

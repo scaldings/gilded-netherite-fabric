@@ -12,9 +12,9 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-public enum GildedNetheriteMaterial implements ArmorMaterial
+public enum GildedArmorMaterial implements ArmorMaterial
 {
-    GILDED("gilded", 38, new int[]{3, 6, 8, 3}, 16, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.2F, 0.2F, () -> {
+    GILDED("gilded", 40, new int[]{3, 6, 8, 3}, 16, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.2F, 0.2F, () -> {
         return Ingredient.ofStacks(new ItemStack(Items.GILDED_INGOT));
     });
 
@@ -28,7 +28,7 @@ public enum GildedNetheriteMaterial implements ArmorMaterial
     private final float knockbackResistance;
     private final Lazy<Ingredient> repairIngredientSupplier;
 
-    GildedNetheriteMaterial(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
+    GildedArmorMaterial(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredientSupplier) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;
