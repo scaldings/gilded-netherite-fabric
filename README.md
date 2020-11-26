@@ -4,6 +4,9 @@
 This mod adds Gilded Netherite armor, it increases the power of a regular Netherite  
 armor and tools and protects you from Piglin aggravation.
 
+# Libraries
+**PigLib**: https://www.curseforge.com/minecraft/mc-mods/piglib
+
 # Showcase
 ![Gilded Netherite Armor](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/armor.png?raw=true) 
 ![Gilded Netherite Ingot Recipe](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/gilded_ingot.png?raw=true) 
