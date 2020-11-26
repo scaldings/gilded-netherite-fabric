@@ -1,5 +1,6 @@
-package me.scaldings.gildednetherite.init;
+package me.scaldings.gildednetherite.init.materials;
 
+import me.scaldings.gildednetherite.init.Items;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.entity.EquipmentSlot;

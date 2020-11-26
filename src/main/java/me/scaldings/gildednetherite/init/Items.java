@@ -1,9 +1,10 @@
 package me.scaldings.gildednetherite.init;
 
-import net.minecraft.entity.EquipmentSlot;
+import me.scaldings.gildednetherite.init.items.*;
+import me.scaldings.gildednetherite.init.materials.*;
 import net.minecraft.item.*;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.Rarity;
+import net.minecraft.util.*;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.util.registry.Registry;
 
 public class Items
