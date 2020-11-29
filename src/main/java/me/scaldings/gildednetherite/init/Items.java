@@ -1,9 +1,9 @@
 package me.scaldings.gildednetherite.init;
 
+import me.scaldings.gildednetherite.init.items.GildedArmorItem;
 import me.scaldings.gildednetherite.init.items.GildedAxeItem;
 import me.scaldings.gildednetherite.init.items.GildedHoeItem;
 import me.scaldings.gildednetherite.init.items.GildedPickaxeItem;
-import me.scaldings.gildednetherite.init.materials.GildedArmorMaterial;
 import me.scaldings.gildednetherite.init.materials.GildedToolMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -20,10 +20,10 @@ public class Items
     public static final Item DIAMOND_SCRAP = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
 
     //Armor
-    public static final Item GILDED_HELMET = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
-    public static final Item GILDED_CHESTPLATE = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
-    public static final Item GILDED_LEGGINGS = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.LEGS, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
-    public static final Item GILDED_BOOTS = new ArmorItem(GildedArmorMaterial.GILDED, EquipmentSlot.FEET, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+    public static final Item GILDED_HELMET = new GildedArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+    public static final Item GILDED_CHESTPLATE = new GildedArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+    public static final Item GILDED_LEGGINGS = new GildedArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.LEGS, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+    public static final Item GILDED_BOOTS = new GildedArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.FEET, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
 
     //Tools
     public static final ToolItem GILDED_SWORD = new SwordItem(GildedToolMaterial.GILDED, 3, -2.2F, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
