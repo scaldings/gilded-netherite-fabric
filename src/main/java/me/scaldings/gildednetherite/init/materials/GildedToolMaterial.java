@@ -10,7 +10,7 @@ import java.util.function.Supplier;
 
 public enum GildedToolMaterial implements ToolMaterial
 {
-    GILDED(4, 2258, 10.0F, 4.8F, 16, () -> {
+    GILDED(4, 2258, 10.0F, 4.8F, 23, () -> {
         return Ingredient.ofStacks(new ItemStack(Items.GILDED_INGOT));
     });
 

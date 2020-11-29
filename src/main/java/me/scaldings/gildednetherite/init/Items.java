@@ -1,10 +1,14 @@
 package me.scaldings.gildednetherite.init;
 
-import me.scaldings.gildednetherite.init.items.*;
-import me.scaldings.gildednetherite.init.materials.*;
-import net.minecraft.item.*;
-import net.minecraft.util.*;
+import me.scaldings.gildednetherite.init.items.GildedAxeItem;
+import me.scaldings.gildednetherite.init.items.GildedHoeItem;
+import me.scaldings.gildednetherite.init.items.GildedPickaxeItem;
+import me.scaldings.gildednetherite.init.materials.GildedArmorMaterial;
+import me.scaldings.gildednetherite.init.materials.GildedToolMaterial;
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.*;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class Items

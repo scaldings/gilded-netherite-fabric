@@ -1,7 +1,7 @@
 package me.scaldings.gildednetherite;
 
-import net.fabricmc.api.ModInitializer;
 import me.scaldings.gildednetherite.init.Items;
+import net.fabricmc.api.ModInitializer;
 
 public class GildedNetherite implements ModInitializer
 {
