@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 
 public enum GildedArmorMaterial implements ArmorMaterial
 {
-    GILDED("gilded", 40, new int[]{3, 6, 8, 3}, 23 , SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.2F, 0.0F, () -> {
+    GILDED("gilded", 40, new int[]{3, 6, 8, 3}, 23 , SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.2F, 0.15F, () -> {
         return Ingredient.ofStacks(new ItemStack(Items.GILDED_INGOT));
     });
 
