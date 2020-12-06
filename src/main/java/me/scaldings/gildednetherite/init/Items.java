@@ -31,6 +31,7 @@ public class Items
     public static final ToolItem GILDED_AXE = new GildedAxeItem(GildedToolMaterial.GILDED, 5, -2.8F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
     public static final ToolItem GILDED_SHOVEL = new ShovelItem(GildedToolMaterial.GILDED, 1, -2.8F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
     public static final ToolItem GILDED_HOE = new GildedHoeItem(GildedToolMaterial.GILDED, -4, 0.2F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
+    public static final Item GILDED_SHIELD = new ShieldItem(new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON));
 
     public static void registerItems()
     {
@@ -45,6 +46,7 @@ public class Items
         register(GILDED_SHOVEL, "gilded_shovel");
         register(GILDED_HOE, "gilded_hoe");
         register(DIAMOND_SCRAP, "diamond_scrap");
+        register(GILDED_SHIELD, "gilded_shield");
     }
 
     private static void register(Item item, String name) {Registry.register(Registry.ITEM, new Identifier(MOD_ID, name), item);}
