@@ -1,9 +1,6 @@
 package me.scaldings.gildednetherite.init;
 
-import me.scaldings.gildednetherite.init.items.GildedArmorItem;
-import me.scaldings.gildednetherite.init.items.GildedAxeItem;
-import me.scaldings.gildednetherite.init.items.GildedHoeItem;
-import me.scaldings.gildednetherite.init.items.GildedPickaxeItem;
+import me.scaldings.gildednetherite.init.items.*;
 import me.scaldings.gildednetherite.init.materials.GildedToolMaterial;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -13,7 +10,7 @@ import net.minecraft.util.registry.Registry;
 
 public class Items
 {
-    private static final String MOD_ID = "gildednetherite";
+    public static final String MOD_ID = "gildednetherite";
 
     //Items
     public static final Item GILDED_INGOT = new Item(new Item.Settings().fireproof().group(ItemGroup.MATERIALS));
@@ -31,7 +28,7 @@ public class Items
     public static final ToolItem GILDED_AXE = new GildedAxeItem(GildedToolMaterial.GILDED, 5, -2.8F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
     public static final ToolItem GILDED_SHOVEL = new ShovelItem(GildedToolMaterial.GILDED, 1, -2.8F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
     public static final ToolItem GILDED_HOE = new GildedHoeItem(GildedToolMaterial.GILDED, -4, 0.2F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
-    public static final Item GILDED_SHIELD = new ShieldItem(new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON));
+    public static final ShieldItem GILDED_SHIELD = new GildedShieldItem(new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON).maxDamage(422).fireproof());
 
     public static void registerItems()
     {
