@@ -1,4 +1,4 @@
-package me.scaldings.gildednetherite.render;
+package me.scaldings.gildednetherite.render.shield;
 
 import com.mojang.datafixers.util.Pair;
 import net.fabricmc.fabric.api.client.rendering.v1.BuiltinItemRendererRegistry;

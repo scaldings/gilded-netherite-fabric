@@ -1,4 +1,4 @@
-package me.scaldings.gildednetherite.render;
+package me.scaldings.gildednetherite.render.shield;
 
 import me.scaldings.gildednetherite.init.Items;
 import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;

@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:end/elytra",
+  "display": {
+    "icon": {
+      "item": "gildednetherite:gilded_elytra",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.gilded_elytra.title"
+    },
+    "description": {
+      "translate": "advancements.gilded_elytra.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 120
+  },
+  "criteria": {
+    "gilded_elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "gildednetherite:gilded_elytra"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gilded_elytra"
+    ]
+  ]
+}

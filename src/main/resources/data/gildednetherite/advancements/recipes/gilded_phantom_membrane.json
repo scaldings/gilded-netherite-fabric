@@ -2,16 +2,19 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "gildednetherite:gilded_pickaxe"
+      "gildednetherite:gilded_phantom_membrane"
     ]
   },
   "criteria": {
-    "has_gilded_ingot": {
+    "has_items": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "gildednetherite:gilded_ingot"
+            "item": "minecraft:gold_nugget"
+          },
+          {
+            "item": "minecraft:phantom_membrane"
           }
         ]
       }
@@ -19,13 +22,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "gildednetherite:gilded_pickaxe"
+        "recipe": "gildednetherite:gilded_phantom_membrane"
       }
     }
   },
   "requirements": [
     [
-      "has_gilded_ingot",
+      "has_items",
       "has_the_recipe"
     ]
   ]

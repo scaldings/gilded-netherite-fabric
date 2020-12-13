@@ -15,12 +15,14 @@ public class Items
     //Items
     public static final Item GILDED_INGOT = new Item(new Item.Settings().fireproof().group(ItemGroup.MATERIALS));
     public static final Item DIAMOND_SCRAP = new Item(new Item.Settings().group(ItemGroup.MATERIALS));
+    public static final Item GILDED_PHANTOM_MEMBRANE = new Item(new Item.Settings().group(ItemGroup.BREWING));
 
     //Armor
     public static final Item GILDED_HELMET = new GildedArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
     public static final Item GILDED_CHESTPLATE = new GildedArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
     public static final Item GILDED_LEGGINGS = new GildedArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.LEGS, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
     public static final Item GILDED_BOOTS = new GildedArmorItem(ArmorMaterials.NETHERITE, EquipmentSlot.FEET, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
+    public static final Item GILDED_ELYTRA = new GildedElytraItem(new Item.Settings().fireproof().group(ItemGroup.TRANSPORTATION).rarity(Rarity.RARE).maxDamage(682));
 
     //Tools
     public static final ToolItem GILDED_SWORD = new SwordItem(GildedToolMaterial.GILDED, 3, -2.2F, new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.RARE));
@@ -28,7 +30,7 @@ public class Items
     public static final ToolItem GILDED_AXE = new GildedAxeItem(GildedToolMaterial.GILDED, 5, -2.8F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
     public static final ToolItem GILDED_SHOVEL = new ShovelItem(GildedToolMaterial.GILDED, 1, -2.8F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
     public static final ToolItem GILDED_HOE = new GildedHoeItem(GildedToolMaterial.GILDED, -4, 0.2F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
-    public static final ShieldItem GILDED_SHIELD = new GildedShieldItem(new Item.Settings().group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON).maxDamage(422).fireproof());
+    public static final ShieldItem GILDED_SHIELD = new GildedShieldItem(new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON).maxDamage(422));
 
     public static void registerItems()
     {
@@ -44,6 +46,8 @@ public class Items
         register(GILDED_HOE, "gilded_hoe");
         register(DIAMOND_SCRAP, "diamond_scrap");
         register(GILDED_SHIELD, "gilded_shield");
+        register(GILDED_ELYTRA, "gilded_elytra");
+        register(GILDED_PHANTOM_MEMBRANE, "gilded_phantom_membrane");
     }
 
     private static void register(Item item, String name) {Registry.register(Registry.ITEM, new Identifier(MOD_ID, name), item);}

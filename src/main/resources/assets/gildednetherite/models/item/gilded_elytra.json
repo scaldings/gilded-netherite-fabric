@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gildednetherite:item/gilded_elytra"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "gildednetherite:item/broken_gilded_elytra"
+    }
+  ]
+}

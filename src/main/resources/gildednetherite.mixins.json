@@ -4,7 +4,10 @@
   "package": "me.scaldings.gildednetherite.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-      "PlayerEntityMixin"
+    "PlayerEntityMixin",
+    "UnbreakingEnchantmentMixin",
+    "ClientPlayerEntityMixin",
+    "LivingEntityMixin"
   ],
   "client": [
   ],

@@ -1,6 +1,7 @@
 {
   "item.gildednetherite.gilded_ingot": "Gilded Netherite Ingot",
   "item.gildednetherite.diamond_scrap": "Diamond Scrap",
+  "item.gildednetherite.gilded_phantom_membrane": "Gilded Phantom Membrane",
 
   "item.gildednetherite.gilded_helmet": "Gilded Netherite Helmet",
   "item.gildednetherite.gilded_chestplate": "Gilded Netherite Chestplate",
@@ -8,6 +9,7 @@
   "item.gildednetherite.gilded_boots": "Gilded Netherite Boots",
   "item.gildednetherite.gilded_sword": "Gilded Netherite Sword",
   "item.gildednetherite.gilded_shield": "Gilded Shield",
+  "item.gildednetherite.gilded_elytra": "Gilded Elytra",
 
   "item.gildednetherite.gilded_pickaxe": "Gilded Netherite Pickaxe",
   "item.gildednetherite.gilded_axe": "Gilded Netherite Axe",
@@ -17,5 +19,7 @@
   "advancements.gilded_armor.title": "Rich Business",
   "advancements.gilded_armor.description": "Get a full suit of Gilded Netherite armor",
   "advancements.gilded_hoe.title": "Bad Life Decisions",
-  "advancements.gilded_hoe.description": "Just... why?"
+  "advancements.gilded_hoe.description": "Just... why?",
+  "advancements.gilded_elytra.title": "Fly With Style",
+  "advancements.gilded_elytra.description": "Obtain a Gilded Elytra"
 }
