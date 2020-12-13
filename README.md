@@ -6,7 +6,7 @@ armor and tools and protects you from Piglin aggravation.
 **PigLib**: https://www.curseforge.com/minecraft/mc-mods/piglib
 
 # Showcase
-![Preview](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/preview.png?raw=true) 
-![Items](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/items.png?raw=true) 
-![Crafting Recipes](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/crafting_recipes.png?raw=true) 
-![Smithing Recipes](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/smithing_recipes.png?raw=true) 
+![Preview](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/preview.png?raw=true)  
+![Items](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/items.png?raw=true)  
+![Crafting Recipes](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/crafting_recipes.png?raw=true)  
+![Smithing Recipes](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/smithing_recipes.png?raw=true)  
