@@ -21,24 +21,5 @@ import net.minecraft.item.ItemConvertible;
 public class GildedNetherite implements ModInitializer
 {
     @Override
-    public void onInitialize()
-    {
-        clientSideRegister();
-        Items.registerItems();
-    }
-
-    @Environment(EnvType.CLIENT)
-    private static void clientSideRegister()
-    {
-        ItemTextures.register();
-        ModelProvider.registerModels();
-        registerRenderer(Items.GILDED_SHIELD, new GildedShieldItemRenderer());
-        LivingEntityFeatureRendererRegistrationCallback.EVENT.register((EntityType<? extends LivingEntity> entityType, LivingEntityRenderer<?, ?> entityRenderer, LivingEntityFeatureRendererRegistrationCallback.RegistrationHelper registrationHelper) -> {
-            if (entityRenderer.getModel() instanceof PlayerEntityModel || entityRenderer.getModel() instanceof BipedEntityModel || entityRenderer.getModel() instanceof ArmorStandEntityModel)
-            {registrationHelper.register(new GildedElytraFeatureRenderer(entityRenderer)); }
-        });
-    }
-
-    private static void registerRenderer(ItemConvertible item, BuiltinItemRendererRegistry.DynamicItemRenderer itemRenderer)
-    {BuiltinItemRendererRegistry.INSTANCE.register(item, itemRenderer);}
+    public void onInitialize() { Items.registerItems();}
 }

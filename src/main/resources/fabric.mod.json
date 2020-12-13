@@ -18,9 +18,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "me.scaldings.gildednetherite.GildedNetherite"
-    ]
+    "main": ["me.scaldings.gildednetherite.GildedNetherite"],
+    "client": ["me.scaldings.gildednetherite.GildedNetheriteClient"]
   },
   "mixins": [
     "gildednetherite.mixins.json"
