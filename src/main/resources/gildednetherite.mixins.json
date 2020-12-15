@@ -4,12 +4,13 @@
   "package": "me.scaldings.gildednetherite.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "LivingEntityMixin",
     "PlayerEntityMixin",
-    "UnbreakingEnchantmentMixin",
-    "LivingEntityMixin"
+    "RecipeManagerMixin",
+    "UnbreakingEnchantmentMixin"
   ],
   "client": [
-    "ClientPlayerEntityMixin",
+    "ClientPlayerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "gildednetherite",
-  "version": "1.4.0",
+  "version": "1.5.0",
 
   "name": "Gilded Netherite",
   "description": "This mod adds Gilded Netherite armor and tools.",
@@ -13,7 +13,7 @@
     "sources": "https://github.com/scaldings/gilded-netherite-fabric"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/gildednetherite/icon.png",
 
   "environment": "*",
