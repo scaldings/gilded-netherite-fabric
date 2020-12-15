@@ -10,7 +10,7 @@ armor and tools and protects you from Piglin aggravation.
 # AdaPaxels Integration
 This mod adds a Gilded Netherite Paxel for AdaPaxel users.
 To obtain a Gilded Netherite Paxel, you can use the same smithing  
-recipes as for any other Gilded Netherite tool.
+recipes as for any other Gilded Netherite tool.  
 ![Paxel](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/paxel.png?raw=true)  
 
 # Discord Server
