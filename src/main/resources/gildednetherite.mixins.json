@@ -6,7 +6,6 @@
   "mixins": [
     "LivingEntityMixin",
     "PlayerEntityMixin",
-    "RecipeManagerMixin",
     "UnbreakingEnchantmentMixin"
   ],
   "client": [

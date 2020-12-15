@@ -32,9 +32,6 @@ public class Items
     public static final ToolItem GILDED_HOE = new GildedHoeItem(GildedToolMaterial.GILDED, -4, 0.2F, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.RARE));
     public static final ShieldItem GILDED_SHIELD = new GildedShieldItem(new Item.Settings().fireproof().group(ItemGroup.COMBAT).rarity(Rarity.UNCOMMON).maxDamage(422));
 
-    //Paxels
-    public static final GildedPaxelItem GILDED_PAXEL = new GildedPaxelItem(GildedToolMaterial.GILDED, 1, -2.8f, new Item.Settings().fireproof().group(ItemGroup.TOOLS).rarity(Rarity.UNCOMMON).maxDamage(2258 * 3));
-
     public static void registerItems()
     {
         register(GILDED_INGOT, "gilded_ingot");
@@ -51,11 +48,6 @@ public class Items
         register(GILDED_SHIELD, "gilded_shield");
         register(GILDED_ELYTRA, "gilded_elytra");
         register(GILDED_PHANTOM_MEMBRANE, "gilded_phantom_membrane");
-    }
-
-    public static void registerPaxelItems()
-    {
-        register(GILDED_PAXEL, "gilded_paxel");
     }
 
     private static void register(Item item, String name) {Registry.register(Registry.ITEM, new Identifier(MOD_ID, name), item);}
