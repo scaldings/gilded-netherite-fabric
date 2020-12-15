@@ -1,9 +1,14 @@
+![Fabric API required](https://cdn.discordapp.com/attachments/726579144615395329/739836321056555069/15964611033571741504164.png)
+
 # About Gilded Netherite for Fabric
 This mod adds Gilded Netherite, it increases the power of a regular Netherite  
 armor and tools and protects you from Piglin aggravation.
 
 # Libraries
 **PigLib**: https://www.curseforge.com/minecraft/mc-mods/piglib
+
+# Discord Server
+**Server invite:** https://discord.gg/WpdZx7ACd3
 
 # Showcase
 ![Preview](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/preview.png?raw=true)  
