@@ -12,6 +12,7 @@ This mod adds a Gilded Netherite Paxel for AdaPaxel users.
 To obtain a Gilded Netherite Paxel, you can use the same smithing  
 recipes as for any other Gilded Netherite tool.  
 ![Paxel](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/paxel.png?raw=true)  
+You can download the AdaPaxel mod here: https://www.curseforge.com/minecraft/mc-mods/adapaxels   
 
 # Discord Server
 **Server invite:** https://discord.gg/WpdZx7ACd3
