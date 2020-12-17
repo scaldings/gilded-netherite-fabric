@@ -8,9 +8,8 @@ armor and tools and protects you from Piglin aggravation.
 **PigLib**: https://www.curseforge.com/minecraft/mc-mods/piglib
 
 # AdaPaxels Integration
-This mod adds a Gilded Netherite Paxel for AdaPaxel users.
-To obtain a Gilded Netherite Paxel, you can use the same smithing  
-recipes as for any other Gilded Netherite tool.  
+This mod has now been added to the list of supported mods in AdaPaxels!  
+You can now have your own Gilded Netherite Paxel.  
 ![Paxel](https://github.com/scaldings/gilded-netherite-fabric/blob/master/images/paxel.png?raw=true)  
 You can download the AdaPaxel mod here: https://www.curseforge.com/minecraft/mc-mods/adapaxels   
 

@@ -2,6 +2,10 @@
 All the changes will be listed in this file.  
 This changelog follows [Semantic Versioning](https://semver.org/)
 
+## [1.5.1](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.5.1) - 2020-12-15
+### Changed
+- Moved Gilded Netherite Paxel to AdaPaxels mod
+
 ## [1.5.0](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.5.0) - 2020-12-15
 ### Added
 - AdaPaxels integration
