@@ -9,14 +9,16 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.Lazy;
+import net.minecraft.util.registry.Registry;
 
 import java.util.function.Supplier;
 
 public enum GildedArmorMaterial implements ArmorMaterial
 {
     GILDED("gilded", 40, new int[]{3, 6, 8, 3}, 23 , SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.2F, 0.15F, () -> {
-        return Ingredient.ofStacks(new ItemStack(Items.GILDED_INGOT));
+        return Ingredient.ofItems(Registry.ITEM.get(new Identifier(Items.MOD_ID, "gilded_ingot")));
     });
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};
