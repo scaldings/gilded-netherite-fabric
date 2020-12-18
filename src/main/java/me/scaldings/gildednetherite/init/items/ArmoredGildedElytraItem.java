@@ -43,7 +43,6 @@ public class ArmoredGildedElytraItem extends ArmorItem
         return GildedElytraMaterial.ARMORED_GILDED;
     }
 
-    @Environment(EnvType.CLIENT)
     public boolean canRepair(ItemStack stack, ItemStack ingredient) {
         return ingredient.getItem() == Items.GILDED_INGOT;
     }

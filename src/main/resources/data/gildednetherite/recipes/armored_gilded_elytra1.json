@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "gildednetherite:gilded_elytra"
+  },
+  "addition": {
+    "item": "gildednetherite:gilded_chestplate"
+  },
+  "result": {
+    "item": "gildednetherite:armored_gilded_elytra"
+  }
+}

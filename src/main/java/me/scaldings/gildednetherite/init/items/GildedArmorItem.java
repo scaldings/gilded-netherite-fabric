@@ -36,8 +36,7 @@ public class GildedArmorItem extends ArmorItem {
 
     @Override
     public ArmorMaterial getMaterial() {return GildedArmorMaterial.GILDED;}
-
-    @Environment(EnvType.CLIENT)
+    
     public boolean canRepair(ItemStack stack, ItemStack ingredient) {return ((GildedArmorItem) stack.getItem()).getMaterial().getRepairIngredient().test(ingredient);}
 
     @Override
