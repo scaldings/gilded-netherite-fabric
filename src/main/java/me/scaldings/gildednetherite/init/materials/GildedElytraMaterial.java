@@ -17,8 +17,11 @@ import java.util.function.Supplier;
 
 public enum GildedElytraMaterial implements ArmorMaterial
 {
-    GILDED("gilded_elytra", 40, new int[]{0, 0, 3, 0}, 23 , SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 1.0F, 0F, () -> {
+    GILDED("gilded_elytra", 40, new int[]{0, 0, 3, 0}, 23 , SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 1F, 0F, () -> {
         return Ingredient.ofItems(Registry.ITEM.get(new Identifier(Items.MOD_ID, "gilded_phantom_membrane")));
+    }),
+    ARMORED_GILDED("armored_gilded_elytra", 40, new int[]{0, 0, 8, 0}, 21 , SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.2F, 0.15F, () -> {
+    return Ingredient.ofItems(Registry.ITEM.get(new Identifier(Items.MOD_ID, "gilded_ingot")));
     });
 
     private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};

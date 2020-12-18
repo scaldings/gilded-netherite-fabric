@@ -27,11 +27,9 @@ public class GildedElytraFeatureRenderer<T extends LivingEntity, M extends Entit
     public void render(MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i, T livingEntity, float f, float g, float h, float j, float k, float l)
     {
         ItemStack itemStack = livingEntity.getEquippedStack(EquipmentSlot.CHEST);
-        if (itemStack.getItem() == Items.GILDED_ELYTRA)
-        {
+        if (itemStack.getItem() == Items.GILDED_ELYTRA || itemStack.getItem() == Items.ARMORED_GILDED_ELYTRA) {
             Identifier identifier;
-            if (livingEntity instanceof AbstractClientPlayerEntity)
-            {
+            if (livingEntity instanceof AbstractClientPlayerEntity) {
                 AbstractClientPlayerEntity abstractClientPlayerEntity = (AbstractClientPlayerEntity) livingEntity;
                 if (abstractClientPlayerEntity.canRenderElytraTexture() && abstractClientPlayerEntity.getElytraTexture() != null) {identifier = abstractClientPlayerEntity.getElytraTexture();}
                 else if (abstractClientPlayerEntity.canRenderCapeTexture() && abstractClientPlayerEntity.getCapeTexture() != null && abstractClientPlayerEntity.isPartVisible(PlayerModelPart.CAPE))

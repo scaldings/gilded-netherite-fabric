@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gildednetherite:item/broken_armored_gilded_elytra"
+  }
+}

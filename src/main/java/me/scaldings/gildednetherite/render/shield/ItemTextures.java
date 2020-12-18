@@ -14,8 +14,7 @@ public class ItemTextures
     public static void register()
     {ClientSpriteRegistryCallback.event(SpriteAtlasTexture.BLOCK_ATLAS_TEXTURE).register(ItemTextures::registerShieldTextures);}
 
-    public static void registerShieldTextures(SpriteAtlasTexture atlas, ClientSpriteRegistryCallback.Registry registry)
-    {
+    public static void registerShieldTextures(SpriteAtlasTexture atlas, ClientSpriteRegistryCallback.Registry registry) {
         registry.register(GILDED_SHIELD_BASE.getTextureId());
         registry.register(GILDED_SHIELD_BASE_NO_PATTERN.getTextureId());
     }

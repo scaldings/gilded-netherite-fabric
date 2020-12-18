@@ -2,7 +2,9 @@ package me.scaldings.gildednetherite.init.items;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
+import me.scaldings.gildednetherite.init.Items;
 import me.scaldings.gildednetherite.init.materials.GildedArmorMaterial;
+import me.scaldings.gildednetherite.init.materials.GildedElytraMaterial;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.entity.EquipmentSlot;
@@ -11,18 +13,18 @@ import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.ItemStack;
 
 import java.util.UUID;
 
-public class GildedArmorItem extends ArmorItem {
-    private final EquipmentSlot slot;
+public class ArmoredGildedElytraItem extends ArmorItem
+{
     private static final UUID[] MODIFIERS = new UUID[]{UUID.fromString("845DB27C-C624-495F-8C9F-6020A9A58B6B"), UUID.fromString("D8499B04-0E66-4726-AB29-64469D734E0D"), UUID.fromString("9F3D476D-C118-4544-8365-64846904B48E"), UUID.fromString("2AD3F246-FEE1-4E67-B886-69FD380BB150")};
     private final Multimap<EntityAttribute, EntityAttributeModifier> attributeModifiers;
 
-    public GildedArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
-        super(material, slot, settings);
-        this.slot = slot;
+    public ArmoredGildedElytraItem(Settings settings) {
+        super(ArmorMaterials.NETHERITE, EquipmentSlot.CHEST, settings);
         ImmutableMultimap.Builder<EntityAttribute, EntityAttributeModifier> builder = ImmutableMultimap.builder();
         UUID uUID = MODIFIERS[slot.getEntitySlotId()];
         builder.put(EntityAttributes.GENERIC_ARMOR, new EntityAttributeModifier(uUID, "Armor modifier", (double)getProtection(), EntityAttributeModifier.Operation.ADDITION));
@@ -32,23 +34,42 @@ public class GildedArmorItem extends ArmorItem {
     }
 
     @Override
-    public int getEnchantability() {return GildedArmorMaterial.GILDED.getEnchantability();}
+    public int getEnchantability() {
+        return GildedElytraMaterial.ARMORED_GILDED.getEnchantability();
+    }
 
     @Override
-    public ArmorMaterial getMaterial() {return GildedArmorMaterial.GILDED;}
+    public ArmorMaterial getMaterial() {
+        return GildedElytraMaterial.ARMORED_GILDED;
+    }
 
     @Environment(EnvType.CLIENT)
-    public boolean canRepair(ItemStack stack, ItemStack ingredient) {return ((GildedArmorItem) stack.getItem()).getMaterial().getRepairIngredient().test(ingredient);}
+    public boolean canRepair(ItemStack stack, ItemStack ingredient) {
+        return ingredient.getItem() == Items.GILDED_INGOT;
+    }
 
     @Override
     public Multimap<EntityAttribute, EntityAttributeModifier> getAttributeModifiers(EquipmentSlot slot) {
-        if (slot == this.slot) {return this.attributeModifiers;}
+        if (slot == EquipmentSlot.CHEST) {
+            return this.attributeModifiers;
+        }
         return ImmutableMultimap.of();
     }
 
-    public int getProtection() {return GildedArmorMaterial.GILDED.getProtectionAmount(this.slot);}
+    public int getProtection() {
+        return GildedElytraMaterial.ARMORED_GILDED.getProtectionAmount(EquipmentSlot.CHEST);
+    }
 
-    public float getKnockbackResistance() {return GildedArmorMaterial.GILDED.getKnockbackResistance();}
+    public float getKnockbackResistance() {
+        return GildedElytraMaterial.ARMORED_GILDED.getKnockbackResistance();
+    }
 
-    public float method_26353() {return GildedArmorMaterial.GILDED.getToughness();}
+    public float method_26353() {
+        return GildedElytraMaterial.ARMORED_GILDED.getToughness();
+    }
+
+    @Override
+    public EquipmentSlot getSlotType() {
+        return EquipmentSlot.CHEST;
+    }
 }

@@ -23,9 +23,13 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	// Custom dependencies
+	// PigLib
 	modApi "com.github.Shnupbups:Piglib:1.0.1"
 	include "com.github.Shnupbups:Piglib:1.0.1"
+
+	// Multi Item Lib
+	modImplementation 'com.github.OroArmor:Multi-Item-Lib:-SNAPSHOT'
+	include 'com.github.OroArmor:Multi-Item-Lib:-SNAPSHOT'
 }
 
 processResources {

@@ -7,5 +7,6 @@ public class GildedNetherite implements ModInitializer {
     @Override
     public void onInitialize() {
         Items.registerItems();
+        Items.registerUniqueItems();
     }
 }
