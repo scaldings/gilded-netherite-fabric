@@ -2,6 +2,13 @@
 All the changes will be listed in this file.  
 This changelog follows [Semantic Versioning](https://semver.org/)
 
+## [1.6.0](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.6.0) - 2020-12-18
+### Added
+- Armored Gilded Elytra
+- NetheritePlus compatibility (next version)
+### Fixed
+- Armor and Elytra repairing in anvil
+
 ## [1.5.2](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.5.2) - 2020-12-17
 ### Fixed
 - Server crash
