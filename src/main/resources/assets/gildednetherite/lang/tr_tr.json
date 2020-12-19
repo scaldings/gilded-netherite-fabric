@@ -1,0 +1,25 @@
+{
+  "item.gildednetherite.gilded_ingot": "yalzdızlı netherit külçesi",
+  "item.gildednetherite.diamond_scrap": Elmas hurda",
+  "item.gildednetherite.gilded_phantom_membrane": "Yaldızlı fantom membran",
+  
+  "item.gildednetherite.gilded_helmet": "yalzdızlı netherit Miğfer",
+  "item.gildednetherite.gilded_chestplate": "yalzdızlı netherit zırh ",
+  "item.gildednetherite.gilded_leggings": "yalzdızlı netherit Pantalon",
+  "item.gildednetherite.gilded_boots": "yalzdızlı netherit Botlar",
+  "item.gildednetherite.gilded_sword": "Yalzdızlı netherit kılıç",
+  "item.gildednetherite.gilded_shield": "Yaldızlı Kalkan",
+  "item.gildednetherite.gilded_elytra": "Yaldızlı Elytra",
+  
+  "item.gildednetherite.gilded_pickaxe": "yalzdızlı netherit Kazma",
+  "item.gildednetherite.gilded_axe": "Yalzdızlı netherit balta",
+  "item.gildednetherite.gilded_shovel": "yalzdızlı netherit kürek"
+  ''yalzdızlı netherit çapa'' 
+  
+  "advancements.gilded_armor.title": "Zengin işletme",
+  "advancements.gilded_armor.description": "Yaldızlı Netherite zırhından tam takım alın",
+  "advancements.gilded_hoe.title": "Kötü Yaşam Kararlar",
+  "advancements.gilded_hoe.description": "Sadece....niye?",
+  "advancements.gilded_elytra.title": "Tarzla uç",
+  "advancements.gilded_elytra.description": "Yaldızlı bir elytra al"
+}
