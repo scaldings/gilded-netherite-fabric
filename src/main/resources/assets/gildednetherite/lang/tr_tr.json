@@ -1,20 +1,20 @@
 {
-  "item.gildednetherite.gilded_ingot": "yalzdızlı netherit külçesi",
-  "item.gildednetherite.diamond_scrap": Elmas hurda",
+  "item.gildednetherite.gilded_ingot": "Yalzdızlı netherit külçesi",
+  "item.gildednetherite.diamond_scrap": "Elmas hurda",
   "item.gildednetherite.gilded_phantom_membrane": "Yaldızlı fantom membran",
   
-  "item.gildednetherite.gilded_helmet": "yalzdızlı netherit Miğfer",
-  "item.gildednetherite.gilded_chestplate": "yalzdızlı netherit zırh ",
-  "item.gildednetherite.gilded_leggings": "yalzdızlı netherit Pantalon",
-  "item.gildednetherite.gilded_boots": "yalzdızlı netherit Botlar",
+  "item.gildednetherite.gilded_helmet": "Yalzdızlı netherit Miğfer",
+  "item.gildednetherite.gilded_chestplate": "Yalzdızlı netherit zırh ",
+  "item.gildednetherite.gilded_leggings": "Yalzdızlı netherit Pantalon",
+  "item.gildednetherite.gilded_boots": "Yalzdızlı netherit Botlar",
   "item.gildednetherite.gilded_sword": "Yalzdızlı netherit kılıç",
   "item.gildednetherite.gilded_shield": "Yaldızlı Kalkan",
   "item.gildednetherite.gilded_elytra": "Yaldızlı Elytra",
   
-  "item.gildednetherite.gilded_pickaxe": "yalzdızlı netherit Kazma",
+  "item.gildednetherite.gilded_pickaxe": "Yalzdızlı netherit Kazma",
   "item.gildednetherite.gilded_axe": "Yalzdızlı netherit balta",
-  "item.gildednetherite.gilded_shovel": "yalzdızlı netherit kürek"
-  ''yalzdızlı netherit çapa'' 
+  "item.gildednetherite.gilded_shovel": "Yalzdızlı netherit kürek",
+  "item.gildednetherite.gilded_hoe": "Yalzdızlı netherit çapa",
   
   "advancements.gilded_armor.title": "Zengin işletme",
   "advancements.gilded_armor.description": "Yaldızlı Netherite zırhından tam takım alın",
