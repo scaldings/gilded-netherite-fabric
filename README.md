@@ -1,4 +1,4 @@
-#This project has been discontinued. Feel free to fork it and add stuff to it.
+# This project has been discontinued. Feel free to fork it and add stuff to it.
 
 ![Fabric API required](https://cdn.discordapp.com/attachments/726579144615395329/739836321056555069/15964611033571741504164.png)
 
