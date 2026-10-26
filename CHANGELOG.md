@@ -11,7 +11,7 @@ This changelog follows [Semantic Versioning](https://semver.org/)
   - Gilded variant found in nether fortress chests (25% chance)
   - Gilded Netherite variant found in end city chests (25% chance)
 ### Changed
-- Ported to 23.6
+- Ported to 26.3
 - Gilded Netherite Boots item texture
 - Smithing recipes for every armor, tool item and shields
 - Gilded Elytra
