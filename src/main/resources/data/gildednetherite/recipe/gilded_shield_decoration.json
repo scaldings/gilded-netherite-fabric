@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_special_shielddecoration",
+  "banner": "#minecraft:banners",
+  "target": "gildednetherite:gilded_netherite_shield",
+  "result": {
+    "id": "gildednetherite:gilded_netherite_shield"
+  }
+}

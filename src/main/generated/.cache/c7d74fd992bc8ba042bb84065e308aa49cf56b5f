@@ -1,0 +1,17 @@
+// 26.3	-999999999-01-01T00:00:00	Gilded Netherite/Tags for minecraft:item
+de2fca3fe961d98f9155a4310d84a41ddc7c2648 data/c/tags/item/tools/shield.json
+c933a5d32664404abdeed5eb5059b2bcc03594af data/gildednetherite/tags/item/repairs_gilded.json
+748287d11c595da2b3823b4ef7d3a8fc60309c46 data/gildednetherite/tags/item/repairs_gilded_elytra.json
+6efa5968f194cede04ebd13a71436c8a0b7f0258 data/gildednetherite/tags/item/repairs_gilded_netherite.json
+255c6c2652f270e18c833e421ee546b8bb4ec2a9 data/minecraft/tags/item/axes.json
+7316af3eac01875892aae6d28a29fd3f8e406762 data/minecraft/tags/item/chest_armor.json
+7ed908842d9d1cb0206b016a50bddad9a53aeda8 data/minecraft/tags/item/enchantable/durability.json
+d7938697b1145bcdeaca2a4dd5a5326e9465aee7 data/minecraft/tags/item/foot_armor.json
+1a61f13d318012ec977380c4629cfa06772fd02f data/minecraft/tags/item/head_armor.json
+8f0517252e3511c552a52a65b0fdc7fd74cd0524 data/minecraft/tags/item/hoes.json
+3b7de379723a07a2d31e186f18f790d8577c82d9 data/minecraft/tags/item/leg_armor.json
+c3d7ef3d65ec5cc5d7c30b233a9e227e49378e51 data/minecraft/tags/item/pickaxes.json
+ca931ff8fb3694cfa1661ec5996c96321baefe50 data/minecraft/tags/item/piglin_safe_armor.json
+8e7e5190aa92540583cae2cab666ec5e33ee8324 data/minecraft/tags/item/shovels.json
+41d6b90c7122d26e4b9691b718a56aa39d30a80f data/minecraft/tags/item/spears.json
+4a08e3db8d73c1c0daf03e46add9f2830cb99b1f data/minecraft/tags/item/swords.json

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NMN",
+    "NNN"
+  ],
+  "key": {
+    "N": "minecraft:gold_nugget",
+    "M": "minecraft:phantom_membrane"
+  },
+  "result": {
+    "id": "gildednetherite:gilded_phantom_membrane",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "gildednetherite:gilded_netherite_upgrade_smithing_template",
+  "base": "gildednetherite:gilded_shield",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "gildednetherite:gilded_netherite_shield"
+  }
+}

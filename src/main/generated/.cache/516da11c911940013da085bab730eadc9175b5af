@@ -1,0 +1,7 @@
+// 26.3	-999999999-01-01T00:00:00	Gilded Netherite/Model Definitions
+93a6950c4a57608189ac2ad6815ff314f54dd896 assets/gildednetherite/items/gilded_netherite_shield.json
+18aeb5aab5b5953568392b60faabd25da18a5506 assets/gildednetherite/items/gilded_shield.json
+95cf207eae007c133ea199faf8d66c8995fbb32f assets/gildednetherite/models/item/gilded_netherite_shield.json
+e4d391832b79eb1c147b80670b7b4e0d5561b14a assets/gildednetherite/models/item/gilded_netherite_shield_blocking.json
+95cf207eae007c133ea199faf8d66c8995fbb32f assets/gildednetherite/models/item/gilded_shield.json
+e4d391832b79eb1c147b80670b7b4e0d5561b14a assets/gildednetherite/models/item/gilded_shield_blocking.json

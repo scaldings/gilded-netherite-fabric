@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NDN",
+    "NIN",
+    "NNN"
+  ],
+  "key": {
+    "N": "minecraft:gold_nugget",
+    "D": "minecraft:diamond",
+    "I": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "gildednetherite:gilded_netherite_ingot",
+    "count": 1
+  }
+}

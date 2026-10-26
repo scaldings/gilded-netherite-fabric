@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/spear_in_hand",
+  "textures": {
+    "layer0": "gildednetherite:item/gilded_netherite_spear_in_hand"
+  }
+}

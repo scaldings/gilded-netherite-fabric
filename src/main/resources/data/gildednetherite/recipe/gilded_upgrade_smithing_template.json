@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DTD",
+    "DGD",
+    "DDD"
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "T": "gildednetherite:gilded_upgrade_smithing_template",
+    "G": "minecraft:gold_block"
+  },
+  "result": {
+    "id": "gildednetherite:gilded_upgrade_smithing_template",
+    "count": 2
+  }
+}

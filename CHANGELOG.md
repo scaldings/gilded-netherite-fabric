@@ -2,6 +2,30 @@
 All the changes will be listed in this file.  
 This changelog follows [Semantic Versioning](https://semver.org/)
 
+## [1.7.0](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.7.0) - 2026-10-25
+### Added
+- Gilded Netherite Shield
+  - knocks back and damages enemies when blocking
+- Gilded Netherite Spear
+- Gilded and Gilded Netherite Upgrade Smithing Templates
+  - Gilded variant found in nether fortress chests (25% chance)
+  - Gilded Netherite variant found in end city chests (25% chance)
+### Changed
+- Ported to 23.6
+- Gilded Netherite Boots item texture
+- Smithing recipes for every armor, tool item and shields
+- Gilded Elytra
+  - new model texture
+  - now gives you a short boost (tier 1 firework rocket) when gliding, this effect has a 20-second cooldown
+  - is no longer fireproof
+- Gilded Shield
+  - new model texture
+  - now knocks enemies back when blocking
+  - is no longer fireproof
+### Removed
+- Armored Gilded Elytra
+- Recipe advancements
+
 ## [1.6.0](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.6.0) - 2020-12-18
 ### Added
 - Armored Gilded Elytra
@@ -20,12 +44,12 @@ This changelog follows [Semantic Versioning](https://semver.org/)
 ## [1.5.0](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.5.0) - 2020-12-15
 ### Added
 - AdaPaxels integration
-  - Gilded Netherite Paxel
+    - Gilded Netherite Paxel
 
 ## [1.4.0](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.4.0) - 2020-12-13
 ### Added
 - Gilded Elytra
-  - Gilded Phantom Membrane (used as a repair ingredient)
+    - Gilded Phantom Membrane (used as a repair ingredient)
 - `Fly With Style` advancement
 ### Changed
 - Revamped all of the textures
@@ -35,7 +59,7 @@ This changelog follows [Semantic Versioning](https://semver.org/)
 ## [1.3.0](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.3.0) - 2020-12-12
 ### Added
 - Gilded Shield
-### Changed 
+### Changed
 - Diamond Scrap texture
 
 ## [1.2.2.1](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.2.2.1) - 2020-12-9
@@ -53,12 +77,12 @@ This changelog follows [Semantic Versioning](https://semver.org/)
 - Reduntant methods in `GildedArmorItem`
 
 ## [1.2.0](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.2.0) - 2020-11-29
-### Added  
+### Added
 - Knockback resistance to armor
 ### Change
 - Increased enchantability for items and tools
 
-## [1.1.1](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.1.1) - 2020-11-26  
+## [1.1.1](https://github.com/scaldings/gilded-netherite-fabric/releases/tag/1.1.1) - 2020-11-26
 ### Changed
 - Switched from `mixins` to `PigLib`
 

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "gildednetherite:gilded_netherite_upgrade_smithing_template",
+  "base": "minecraft:netherite_leggings",
+  "addition": "gildednetherite:diamond_scrap",
+  "result": {
+    "id": "gildednetherite:gilded_netherite_leggings"
+  }
+}

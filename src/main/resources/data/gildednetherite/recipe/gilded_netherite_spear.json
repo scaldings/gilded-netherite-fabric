@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "gildednetherite:gilded_netherite_upgrade_smithing_template",
+  "base": "minecraft:diamond_spear",
+  "addition": "gildednetherite:gilded_netherite_ingot",
+  "result": {
+    "id": "gildednetherite:gilded_netherite_spear"
+  }
+}

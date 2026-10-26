@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NDN",
+    "NNN"
+  ],
+  "key": {
+    "N": "minecraft:gold_nugget",
+    "D": "minecraft:diamond"
+  },
+  "result": {
+    "id": "gildednetherite:diamond_scrap",
+    "count": 1
+  }
+}
